@@ -7,23 +7,26 @@ class employee
 	private:
 		string nameEmployee;
 		string telEmployee;
+		string status;
+		string number;
+		
+		
+		
 	public:
 		employee();
 		void getdataemployee(string username,string tel);
 	protected:
 };
-class editclothesbasketstatus
-{
-	protected:
-		string finishDay;
-		string finishTime;
-		string statusClothes;
-		clothesbasket 
-		customer c;
-		queuewashing qw;
-		queuedrying qd;
+class Editdryingmachine{
+	
+	private:
+		string status;
+		int number;
 	public:
-		editclothesbasketstatus():
-		editclothesbasketstatus(string day,string time,string status);
-		void show():
+ 		Editdryingmachine();
+ 		void setdata();
+ 		string correctstatus(string st,int n);
+ 		void showBakingmachine();
+	
 };
+
