@@ -1,9 +1,19 @@
 [Editors]
+<<<<<<< HEAD
 Order=2,1,0
 Focused=0
 [Editor_0]
-CursorCol=11
-CursorRow=7
+CursorCol=1
+CursorRow=1
+=======
+Order=0,2,1
+Focused=1
+TopLine=1
+LeftChar=1
+[Editor_0]
+CursorCol=1
+CursorRow=1
+>>>>>>> 98bb2aed91de3e61e4ee947e6f1a0c62fc197b62
 TopLine=1
 LeftChar=1
 [Editor_1]

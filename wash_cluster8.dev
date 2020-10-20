@@ -51,7 +51,11 @@ AutoIncBuildNr=0
 SyncProduct=1
 
 [Unit3]
+<<<<<<< HEAD
 FileName=employee.cpp
+=======
+FileName=wash_cluster8.cpp
+>>>>>>> 98bb2aed91de3e61e4ee947e6f1a0c62fc197b62
 CompileCpp=1
 Folder=
 Compile=1
@@ -61,7 +65,11 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit2]
+<<<<<<< HEAD
 FileName=employee.h
+=======
+FileName=wash_cluster8.h
+>>>>>>> 98bb2aed91de3e61e4ee947e6f1a0c62fc197b62
 CompileCpp=1
 Folder=
 Compile=1
