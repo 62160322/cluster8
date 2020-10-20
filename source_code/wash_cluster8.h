@@ -7,10 +7,6 @@ class employee
 	private:
 		string nameEmployee;
 		string telEmployee;
-		string status;
-		string number;
-		
-		
 		
 	public:
 		employee();
