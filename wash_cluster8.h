@@ -13,3 +13,15 @@ class employee
 	protected:
 };
 
+
+class Newcustomer{
+	private:
+		string nameCustomer;
+		string telCustomer;
+	public:
+		Newcustomer();
+		void getdatacustomer(string name,string tel);
+		
+		
+};
+
