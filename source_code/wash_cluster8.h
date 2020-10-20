@@ -17,16 +17,4 @@ class employee
 		void getdataemployee(string username,string tel);
 	protected:
 };
-class Editdryingmachine{
-	
-	private:
-		string status;
-		int number;
-	public:
- 		Editdryingmachine();
- 		void setdata();
- 		string correctstatus(string st,int n);
- 		void showBakingmachine();
-	
-};
 
