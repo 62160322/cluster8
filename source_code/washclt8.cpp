@@ -202,8 +202,6 @@ class Newcustomer
 		
 };
 
-
-
 int main(int argc, char** argv)
 {
 	employee getEmployee;
