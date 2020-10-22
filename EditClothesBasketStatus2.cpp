@@ -102,34 +102,15 @@ class Newcustomer{
 		}
 		
 		void readfile(){
-		string name,tel,day,weight,line,type;
-	  	ifstream myfile;
-	  
-	  	myfile.open("Customer.dat");
-	  	if(myfile.fail()){
-
-	  	}else{
-	   		while(getline(myfile,line)){
-				name = line.substr(0,line.find(','));
-   				     line.erase(0,line.find(',')+1);
-	    		tel = line.substr(0,line.find(','));
-  	    	    		line.erase(0,line.find(','));
-	    		day = line.substr(0,line.find(','));
-	        			line.erase(0,line.find(',')+1);
-	   			weight = line.substr(0,line.find(','));
-   		    			line.erase(0,line.find(',')+1);
-				type = line.substr(0,line.find(' '));
-				       line.erase(0,line.find(' ')+1);
-				       addCustomer(name,tel,day,weight,type);
-	    			//cout<<name<<" "<<tel<<endl;   
-	   		}
-	   		//cout<<name<<" "<<tel<<endl;
-	      	 	myfile.close();
-	   	}
+		string line;
+		ifstream myfile;
+		myfile.open("Customer.dat");
+		
+		while(getline(myfile,line)){
+			cout << line << endl;
+		}//while
+		
 		}//myfile
-
-
-
 };//class Newcustomer
 
 
@@ -159,13 +140,29 @@ editclothesbasketstatus::editclothesbasketstatus(string status)
 }
 void editclothesbasketstatus::show()
 {
-	nodeCustomer *t;	
-	t = headCustomer;
-	readfile();
-	cout<<"Username:"<<t->node_name<<endl;
-	cout<<"Phone Number:"<<tel<<endl;
-	cout<<"Queue:"<<endl;
-	cout<<"Status:"<<statusClothes<<endl;
+
+	char a;
+	string user,pass;
+	do{
+	menu:
+	cout<<"Correct clothing status"<<endl;
+	cout<<"Username:"<<endl;
+	cin>>user;
+	cout<<"Phone Number:"<<endl;
+	cin>>pass;
+	if(){
+		cout<<"Username:"<<endl;
+		cout<<"Phone Number:"<<endl;
+		cout<<"Queue:"<<endl;
+	}
+	cout<<"Status:";
+	cin>>statusClothes;
+	cout<<"Do you want to edt again? (y/n):";
+	cin>>a;
+	if(a=='y'){
+		goto menu;
+	}
+	}while(a!='y');
 }
 
 int main(){
