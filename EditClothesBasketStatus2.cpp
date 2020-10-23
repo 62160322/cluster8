@@ -143,18 +143,18 @@ void editclothesbasketstatus::show()
 
 	char a;
 	string user,pass;
-	do{
+	//do{
 	menu:
 	cout<<"Correct clothing status"<<endl;
-	cout<<"Username:"<<endl;
+	cout<<"Username:";
 	cin>>user;
-	cout<<"Phone Number:"<<endl;
+	cout<<"Phone Number:";
 	cin>>pass;
-	if(){
-		cout<<"Username:"<<endl;
-		cout<<"Phone Number:"<<endl;
+	//if(){
+		cout<<"Username:"<<user<<endl;
+		cout<<"Phone Number:"<<pass<<endl;
 		cout<<"Queue:"<<endl;
-	}
+	//}
 	cout<<"Status:";
 	cin>>statusClothes;
 	cout<<"Do you want to edt again? (y/n):";
@@ -162,7 +162,7 @@ void editclothesbasketstatus::show()
 	if(a=='y'){
 		goto menu;
 	}
-	}while(a!='y');
+	//}while(a!='y');
 }
 
 int main(){
